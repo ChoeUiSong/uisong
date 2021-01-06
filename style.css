@@ -1,0 +1,332 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Zilla+Slab:wght@300&display=swap');
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #c0b9a3;
+  
+}
+.header {
+  font-family: 'Darker Grotesque', sans-serif;
+  color: white;
+  padding-top: 10px;
+  font-size: 40px;
+  width: auto;
+  height: 80px;
+  background-color: #333;
+  text-align: center;
+}
+.WelCome {
+  background: url("Backgroundd.svg") repeat fixed 100%;
+  background-size: cover;
+  padding: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-family: roboto;
+}
+.WelCome h1 {
+  font-family: Josefin Slab;
+  position: relative;
+  color: cadetblue;
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+.headerstyle {
+  width: auto;
+  height: 50px;
+  background-color: #333;
+}
+.projectsSec{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  
+}
+.secP{
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: whitesmoke;
+  width: 600px;
+  height: 200px;
+}
+@media(max-width:1679px){
+  .img1{
+    width: 500px;
+    transition: ease, 1s;
+  }
+  .secP{
+    width: 500px;
+    transition: ease, 1s;
+  }
+  
+}
+@media(max-width:1502px){
+  .img1{
+    width: 450px;
+    transition: ease, 1s;
+  }
+  .secP{
+    width: 450px;
+    transition: ease, 1s;
+  }
+}
+@media(max-width:1380px){
+  .projectsSec{
+    transition: ease, 1s;
+  }
+  .img1{
+    width: 410px;
+    padding-top: 20px;
+    transition: ease, 1s;
+  }
+  .secP{
+    width: 410px;
+    transition: ease, 1s;
+  }
+}
+@media(max-width:1279px){
+  .projectsSec{
+    grid-template-columns: 100%;
+    transition: ease, 1s;
+  }
+  .img1{
+    width: 500px;
+    padding-top: 20px;
+    transition: ease, 1s;
+  }
+  .secP{
+    width: 500px;
+    transition: ease, 1s;
+  }
+}
+@media(max-width:1024px){
+  .projectsSec{
+    grid-template-columns: 100%;
+    transition: ease, 1s;
+  }
+  .img1{
+    width: 900px;
+    padding-top: 20px;
+    transition: ease, 1s;
+  }
+  .secP{
+    width: 900px;
+    transition: ease, 1s;
+  }
+}
+@media(max-width:800px){
+  .projectsSec{
+    grid-template-columns: 100%;
+    transition: ease, 1s;
+  }
+  .img1{
+    width: 700px;
+    padding-top: 20px;
+    transition: ease, 1s;
+  }
+  .secP{
+    width: 700px;
+    transition: ease, 1s;
+  }
+}
+@media(max-width:768px){
+  .projectsSec{
+    grid-template-columns: 100%;
+    transition: ease, 1s;
+  }
+  .img1{
+    width: 700px;
+    padding-top: 20px;
+    transition: ease, 1s;
+  }
+  .secP{
+    width: 700px;
+    transition: ease, 1s;
+  }
+}
+@media(max-width:600px){
+  .projectsSec{
+    grid-template-columns: 100%;
+    transition: ease, 1s;
+  }
+  .img1{
+    width: 500px;
+    padding-top: 20px;
+    transition: ease, 1s;
+  }
+  .secP{
+    width: 500px;
+    transition: ease, 1s;
+  }
+}
+@media(max-width:540px){
+  .projectsSec{
+    grid-template-columns: 100%;
+    transition: ease, 1s;
+  }
+  .img1{
+    width: 500px;
+    padding-top: 20px;
+    transition: ease, 1s;
+  }
+  .secP{
+    width: 500px;
+    transition: ease, 1s;
+  }
+}
+@media(max-width:414px){
+  .projectsSec{
+    grid-template-columns: 100%;
+    transition: ease, 1s;
+  }
+  .img1{
+    width: 390px;
+    padding-top: 20px;
+    transition: ease, 1s;
+  }
+  .secP{
+    width: 390px;
+    transition: ease, 1s;
+  }
+}
+@media(max-width:411px){
+  .projectsSec{
+    grid-template-columns: 100%;
+    transition: ease, 1s;
+  }
+  .img1{
+    width: 400px;
+    padding-top: 20px;
+    transition: ease, 1s;
+  }
+  .secP{
+    width: 400px;
+    transition: ease, 1s;
+  }
+}
+@media(max-width:375px){
+  .projectsSec{
+    grid-template-columns: 100%;
+    transition: ease, 1s;
+  }
+  .img1{
+    width: 350px;
+    padding-top: 20px;
+    transition: ease, 1s;
+  }
+  .headerstyle{
+    height: 74px;
+  }
+  .secP{
+    width: 350px;
+    transition: ease, 1s;
+  }
+}
+@media(max-width:320px){
+  .projectsSec{
+    grid-template-columns: 100%;
+    transition: ease, 1s;
+  }
+  .img1{
+    width: 300px;
+    padding-top: 20px;
+    transition: ease, 1s;
+  }
+  .headerstyle{
+    height: 74px;
+  }
+  .secP{
+    width: 300px;
+    transition: ease, 1s;
+  }
+}
+@media(max-width:280px){
+  .projectsSec{
+    grid-template-columns: 100%;
+    transition: ease, 1s;
+  }
+  .img1{
+    width: 270px;
+    padding-top: 20px;
+    transition: ease, 1s;
+  }
+  .headerstyle{
+    height: 74px;
+  }
+  .secP{
+    width: 270px;
+    transition: ease, 1s;
+  }
+}
+.footer{
+  width: auto;
+  height: 50px;
+  background-color: rgb(27, 31, 255);
+  text-align: center;
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  padding-top: 15px;
+}
+.addressFooter{
+  font-family: 'Zilla Slab', serif;
+  background-color:#091e30;
+  width: auto;
+  height: 450px;
+  color: white;
+  text-align: center;
+}
+.addressFooter h1{
+  padding-top: 50px;
+  font-family: 'Zilla Slab', serif;
+  text-decoration: underline;
+  text-decoration-color:  rgb(27, 31, 255);
+}
+.Map{
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px 0px;
+}
+.Email{
+  margin: auto;
+  padding: 10px;
+  background-color: white;
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px 0px;
+}
+.Info{
+  text-align: center;
+  display: grid;
+}
+.EmailIcon{
+  padding-top: 17px;
+}
+.MapIcon{
+  padding-top: 13px;
+}
+.btn1{
+  border: none;
+  outline: none;
+  background-color: #091e30;
+  color: white;
+  font-size: 20px;
+  font-family: roboto;
+  width: 90px;
+  height: 40px;
+  margin-top: 70px;
+}
