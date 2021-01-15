@@ -39,11 +39,6 @@ table{
     width: 700px;
     border:1px solid #333;
 }
-.table1{
-
-  width: 400px;
-  background-color: #333;
-}
 .subject{
   border:1px solid #333;
     padding:4px 8px;
@@ -52,6 +47,7 @@ table{
     font-size: 30px;
     height: 30px;
   width: 100px;
+  
 }
 .subject1{
   border:1px solid #333;
@@ -118,11 +114,6 @@ table{
   font-family: roboto;
   background-color: rgb(150, 214, 184);
 }
-
-.content{
-  margin: 10px auto;
-  width: 100%;
-}
 .prev-btn,
 .next-btn{
   background-color: white;
@@ -130,9 +121,9 @@ table{
   padding-right: 23px;
   padding-top: 135px;
   padding-bottom: 135px;
-  position: absolute;
   top: 630px;
   font-size: 20px;
+  position: absolute;
   cursor: pointer;
   transition: 400ms;
 }
@@ -149,7 +140,7 @@ table{
   align-items: center;
   justify-content: center;
   margin: 16px 0;
-  margin-top: 340px;
+  margin-top: 300px;
 }
 .single-dot{
   background-color: #333;
