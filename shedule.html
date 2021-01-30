@@ -1,279 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="schedule.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <title>Schedule</title>
-    <script>
-        var currentDay = new Date();
-        var month = currentDay.getMonth();
-        var day = currentDay.getDate();
-        var year = currentDay.getFullYear();
-        var fullDate = year + " : " + month + " : " + day;
-        document.write(fullDate)
-    </script>
-</head>
-<body>
-    <h1 class="title">My Everyday Objective</h1>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-        <table>
-            <tr >
-                <th class="th" colspan="2">Day 1</th>
-                <th class="th" colspan="2">Day 2</th>
-            </tr>
-            <tr>
-                <th class="subject1">Subject</th>
-                <th class="objective1">Objective</th>
-                <th class="subject1">Subject</th>
-                <th class="objective1">Objective</th>
-            </tr>
-            <tr>
-                <td class="subject">Math</td>
-                <td class="objective">Objective</td>
-                <td class="subject">Math</td>
-                <td class="objective">I Learnt About Gradient Understood</td>
-            </tr>
-            <tr>
-                <td class="subject">Geography</td>
-                <td class="objective">Objective</td>
-                <td class="subject">PE</td>
-                <td class="objective">Don't Have Google Classroom Didn't Attend</td>
-            </tr>
-            <tr>
-                <td class="subject">English</td>
-                <td class="objective">Objective</td>
-                <td class="subject">English</td>
-                <td class="objective">Learned About Figurative Language</td>
-            </tr>
-            <tr>
-                <td class="subject">ICT</td>
-                <td class="objective">Objective</td>
-                <td class="subject">Science</td>
-                <td class="objective">About Types Of Diseases</td>
-            </tr>
-            <tr>
-                <td class="subject">Mandarin</td>
-                <td class="objective">Objective</td>
-                <td class="subject">History</td>
-                <td class="objective">About World War 2 And Why It Started</td>
-            </tr>
-        </table>
-        
-        <br>
-        <br>
-        <hr>
-        <br>
-        <br>
-        <div class="content">
-            <div class="prev-btn"><i class="fas fa-chevron-left"></i></div>
-                <div id="slider">
-                    <div class="MoreAbout">
-                        <table>
-                            <tr >
-                                <th class="th1" colspan="1">Obj\Sub</th>
-                                <th class="th" colspan="1">Math</th>
-                                <th class="th" colspan="1">English</th>
-                                <th class="th" colspan="1">Geography</th>
-                                <th class="th" colspan="1">ICT</th>
-                                <th class="th" colspan="1">Mandarin</th>
-                                <th class="th" colspan="1">Science</th>
-                                <th class="th" colspan="1">History</th>
-                            </tr>
-                            <tr>
-                                <td class="DRI">What I Learned</td>
-                                <td class="td">Gradient</td>
-                                <td class="td">F</td>
-                                <td class="td">I Learnt About Gradient Understood</td>
-                                <td class="td">Math</td>
-                                <td class="td">Objective</td>
-                                <td class="td">Math</td>
-                                <td class="td">I Learnt About Gradient Understood</td>
-                            </tr>
-                            <tr>
-                                <td class="DRI">Specific</td>
-                                <td class="td">Objective</td>
-                                <td class="td">PE</td>
-                                <td class="td">Don't Have Google Classroom Didn't Attend</td>
-                                <td class="td">Geography</td>
-                                <td class="td">Objective</td>
-                                <td class="td">PE</td>
-                                <td class="td">Don't Have Google Classroom Didn't Attend</td>
-                            </tr>
-                            <tr>
-                                <td class="DRI">I Don't Understood</td>
-                                <td class="td">Objective</td>
-                                <td class="td">English</td>
-                                <td class="td">Learned About Figurative Language</td>
-                                <td class="td">English</td>
-                                <td class="td">Objective</td>
-                                <td class="td">English</td>
-                                <td class="td">Learned About Figurative Language</td>
-                            </tr>
-                            <tr>
-                                <td class="DRI">HomeWork</td>
-                                <td class="td">Objective</td>
-                                <td class="td">Science</td>
-                                <td class="td">About Types Of Diseases</td>
-                                <td class="td">ICT</td>
-                                <td class="td">Objective</td>
-                                <td class="td">Science</td>
-                                <td class="td">About Types Of Diseases</td>
-                            </tr>
-                            <tr>
-                                <td class="DRI">All Done For The Day</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="MoreAbout">
-                        <table>
-                            <tr >
-                                <th class="th1" colspan="1">Obj\Sub</th>
-                                <th class="th" colspan="1">Math</th>
-                                <th class="th" colspan="1">English</th>
-                                <th class="th" colspan="1">Geography</th>
-                                <th class="th" colspan="1">ICT</th>
-                                <th class="th" colspan="1">Mandarin</th>
-                                <th class="th" colspan="1">Science</th>
-                                <th class="th" colspan="1">History</th>
-                            </tr>
-                            <tr>
-                                <td class="DRI">What I Learned</td>
-                                <td class="td">Gradient</td>
-                                <td class="td">F</td>
-                                <td class="td">I Learnt About Gradient Understood</td>
-                                <td class="td">Math</td>
-                                <td class="td">Objective</td>
-                                <td class="td">Math</td>
-                                <td class="td">I Learnt About Gradient Understood</td>
-                            </tr>
-                            <tr>
-                                <td class="DRI">Specific</td>
-                                <td class="td">Objective</td>
-                                <td class="td">PE</td>
-                                <td class="td">Don't Have Google Classroom Didn't Attend</td>
-                                <td class="td">Geography</td>
-                                <td class="td">Objective</td>
-                                <td class="td">PE</td>
-                                <td class="td">Don't Have Google Classroom Didn't Attend</td>
-                            </tr>
-                            <tr>
-                                <td class="DRI">I Don't Understood</td>
-                                <td class="td">Objective</td>
-                                <td class="td">English</td>
-                                <td class="td">Learned About Figurative Language</td>
-                                <td class="td">English</td>
-                                <td class="td">Objective</td>
-                                <td class="td">English</td>
-                                <td class="td">Learned About Figurative Language</td>
-                            </tr>
-                            <tr>
-                                <td class="DRI">HomeWork</td>
-                                <td class="td">Objective</td>
-                                <td class="td">Science</td>
-                                <td class="td">About Types Of Diseases</td>
-                                <td class="td">ICT</td>
-                                <td class="td">Objective</td>
-                                <td class="td">Science</td>
-                                <td class="td">About Types Of Diseases</td>
-                            </tr>
-                            <tr>
-                                <td class="DRI">All Done For The Day</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="MoreAbout">
-                        <table>
-                            <tr >
-                                <th class="th1" colspan="1">Obj\Sub</th>
-                                <th class="th" colspan="1">Math</th>
-                                <th class="th" colspan="1">English</th>
-                                <th class="th" colspan="1">Geography</th>
-                                <th class="th" colspan="1">ICT</th>
-                                <th class="th" colspan="1">Mandarin</th>
-                                <th class="th" colspan="1">Science</th>
-                                <th class="th" colspan="1">History</th>
-                            </tr>
-                            <tr>
-                                <td class="DRI">What I Learned</td>
-                                <td class="td">Gradient</td>
-                                <td class="td">F</td>
-                                <td class="td">I Learnt About Gradient Understood</td>
-                                <td class="td">Math</td>
-                                <td class="td">Objective</td>
-                                <td class="td">Math</td>
-                                <td class="td">I Learnt About Gradient Understood</td>
-                            </tr>
-                            <tr>
-                                <td class="DRI">Specific</td>
-                                <td class="td">Objective</td>
-                                <td class="td">PE</td>
-                                <td class="td">Don't Have Google Classroom Didn't Attend</td>
-                                <td class="td">Geography</td>
-                                <td class="td">Objective</td>
-                                <td class="td">PE</td>
-                                <td class="td">Don't Have Google Classroom Didn't Attend</td>
-                            </tr>
-                            <tr>
-                                <td class="DRI">I Don't Understood</td>
-                                <td class="td">Objective</td>
-                                <td class="td">English</td>
-                                <td class="td">Learned About Figurative Language</td>
-                                <td class="td">English</td>
-                                <td class="td">Objective</td>
-                                <td class="td">English</td>
-                                <td class="td">Learned About Figurative Language</td>
-                            </tr>
-                            <tr>
-                                <td class="DRI">HomeWork</td>
-                                <td class="td">Objective</td>
-                                <td class="td">Science</td>
-                                <td class="td">About Types Of Diseases</td>
-                                <td class="td">ICT</td>
-                                <td class="td">Objective</td>
-                                <td class="td">Science</td>
-                                <td class="td">About Types Of Diseases</td>
-                            </tr>
-                            <tr>
-                                <td class="DRI">All Done For The Day</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                                <td class="td">X</td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            <div class="next-btn"><i class="fas fa-chevron-right"></i></div>
-        </div>
-        <div class="navigation-dots">
-            <div class="single-dot active"></div>
-            <div class="single-dot"></div>
-            <div class="single-dot"></div>
-        </div>
-        <br>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="schedule.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+		/>
+		<title>Schedule</title>
+		<script src="shedule.js"></script>
+	</head>
+	<body>
+		<h1 class="title">My Everyday Objective</h1>
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<table>
+			<tr>
+				<th class="th" colspan="2">Day 1</th>
+				<th class="th" colspan="2">Day 2</th>
+			</tr>
+			<tr>
+				<th class="subject1">Subject</th>
+				<th class="objective1">Objective</th>
+				<th class="subject1">Subject</th>
+				<th class="objective1">Objective</th>
+			</tr>
+			<tr>
+				<td class="subject">Math</td>
+				<td class="objective">Objective</td>
+				<td class="subject">Math</td>
+				<td class="objective">I Learnt About Gradient Understood</td>
+			</tr>
+			<tr>
+				<td class="subject">Geography</td>
+				<td class="objective">Objective</td>
+				<td class="subject">PE</td>
+				<td class="objective">
+					Don't Have Google Classroom Didn't Attend
+				</td>
+			</tr>
+			<tr>
+				<td class="subject">English</td>
+				<td class="objective">Objective</td>
+				<td class="subject">English</td>
+				<td class="objective">Learned About Figurative Language</td>
+			</tr>
+			<tr>
+				<td class="subject">ICT</td>
+				<td class="objective">Objective</td>
+				<td class="subject">Science</td>
+				<td class="objective">About Types Of Diseases</td>
+			</tr>
+			<tr>
+				<td class="subject">Mandarin</td>
+				<td class="objective">Objective</td>
+				<td class="subject">History</td>
+				<td class="objective">About World War 2 And Why It Started</td>
+			</tr>
+		</table>
 
-</body>
+		<br />
+		<br />
+		<hr />
+		<br />
+		<br />
+		<div class="content">
+				<div class="MoreAbout">
+					<table>
+						<tr>
+							<th class="th1" colspan="1">Obj\Sub</th>
+							<th class="th" colspan="1">Math</th>
+							<th class="th" colspan="1">English</th>
+							<th class="th" colspan="1">Geography</th>
+							<th class="th" colspan="1">ICT</th>
+							<th class="th" colspan="1">Mandarin</th>
+							<th class="th" colspan="1">Science</th>
+							<th class="th" colspan="1">History</th>
+						</tr>
+						<tr>
+							<td class="DRI">What I Learned</td>
+							<td class="td">Gradient</td>
+							<td class="td">F</td>
+							<td class="td">
+								I Learnt About Gradient Understood
+							</td>
+							<td class="td">Math</td>
+							<td class="td">Objective</td>
+							<td class="td">Math</td>
+							<td class="td">
+								I Learnt About Gradient Understood
+							</td>
+						</tr>
+						<tr>
+							<td class="DRI">Specific</td>
+							<td class="td">Objective</td>
+							<td class="td">PE</td>
+							<td class="td">
+								Don't Have Google Classroom Didn't Attend
+							</td>
+							<td class="td">Geography</td>
+							<td class="td">Objective</td>
+							<td class="td">PE</td>
+							<td class="td">
+								Don't Have Google Classroom Didn't Attend
+							</td>
+						</tr>
+						<tr>
+							<td class="DRI">I Don't Understood</td>
+							<td class="td">Objective</td>
+							<td class="td">English</td>
+							<td class="td">
+								Learned About Figurative Language
+							</td>
+							<td class="td">English</td>
+							<td class="td">Objective</td>
+							<td class="td">English</td>
+							<td class="td">
+								Learned About Figurative Language
+							</td>
+						</tr>
+						<tr>
+							<td class="DRI">HomeWork</td>
+							<td class="td">Objective</td>
+							<td class="td">Science</td>
+							<td class="td">About Types Of Diseases</td>
+							<td class="td">ICT</td>
+							<td class="td">Objective</td>
+							<td class="td">Science</td>
+							<td class="td">About Types Of Diseases</td>
+						</tr>
+						<tr>
+							<td class="DRI">All Done For The Day</td>
+							<td class="td">X</td>
+							<td class="td">X</td>
+							<td class="td">X</td>
+							<td class="td">X</td>
+							<td class="td">X</td>
+							<td class="td">X</td>
+							<td class="td">X</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="navigation-dots">
+			<div class="single-dot active"></div>
+			<div class="single-dot"></div>
+			<div class="single-dot"></div>
+		</div>
+		<br />
+	</body>
 </html>
